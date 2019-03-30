@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Timer Application</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="timer.js"></script>
+</head>
+<body>
+
+        <div class="topnav">
+                <a href="index.html">Home</a>
+                <a class="active" href="counter.html">Counter</a>
+        </div>
+
+    <div class="timer_class">
+            <div class="clock">
+                    <h1 class="time" id="display_time">00 : 00 : 00</h1>
+            </div>
+            <div class="input_time">
+                <input class="timeInSec" type="text" id="timeInSec" placeholder="Enter your time in seconds">
+
+            </div>
+            <div class="controls">
+                    <a href="index.html"><button class="counterstopwatch_button">Stop watch</button></a>
+                    <button class="counterstart_button" id="start_button" onclick="countDown();">Start</button>
+                    <button class="counterstop_button" id="stop_button" style="display:none">Stop</button>
+            </div>
+    </div>
+
+    <div class="footer">
+        <h1>About Us</h1>
+        <p>should a good About Us page contain? First and foremost an About Us page has to get a point across. Everything else is completely useless unless the content and the layout is achieving a goal. That goal is to tell the user who you are by showing them what you can do for them or have done for others.</p>
+    </div>
+    
+</body>
+</html>
